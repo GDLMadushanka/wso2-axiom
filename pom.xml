@@ -25,7 +25,7 @@
     <groupId>org.apache.ws.commons.axiom</groupId>
     <artifactId>axiom</artifactId>
     <name>Axiom</name>
-    <version>1.2.11-wso2v17</version>
+    <version>1.2.11-wso2v17.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <description>AXIOM API</description>
     <url>http://ws.apache.org/axiom/</url>
@@ -332,7 +332,7 @@
              we can't use the project.version variable directly because of the dot. See
              http://maven.apache.org/plugins/maven-site-plugin/examples/creating-content.html -->
         <axiom_version>${project.version}</axiom_version>
-        <project.scm.id>scm-server</project.scm.id>
+        <project.scm.id>wso2-scm-server</project.scm.id>
     </properties>
 
      <build>
