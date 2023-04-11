@@ -19,14 +19,14 @@
     <parent>
         <groupId>org.apache.ws.commons.axiom</groupId>
         <artifactId>axiom-parent</artifactId>
-        <version>1.2.11-wso2v17.1-SNAPSHOT</version>
+        <version>1.2.11-wso2v17.1</version>
         <relativePath>../axiom-parent/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>axiom-c14n</artifactId>
     <name>Axiom C14N</name>
     <packaging>bundle</packaging>
-    <description/>
+    <description />
     <!-- This also needs to be set explicitly because the Maven calculated URL would point to nowhere -->
     <url>http://ws.apache.org/axiom/</url>
     <dependencies>
